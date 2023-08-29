@@ -5,10 +5,11 @@ Automated Vulnerability Detector for Solana Smart Contracts
 First, install rustup, and install a nightly version rustc:
 ```
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
-rustup install nightly-2021-12-14
-rustup default nightly-2021-12-14
+rustup install nightly-2022-02-24
+rustup default nightly-2022-02-24
 rustup component add rust-src
 rustup component add rustc-dev
+rustup component add llvm-tools-preview
 cargo install xargo
 ```
 (Rust nightly changes dramastically, so make sure you used the version specified above)
